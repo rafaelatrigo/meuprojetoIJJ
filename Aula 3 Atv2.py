@@ -1,6 +1,6 @@
 nome = input('Digite o seu nome: ')
 sobrenome = input('Digite o seu sobrenome: ')
-mes = 'JANEIRO'
+#mes = 'JANEIRO'
 n1 = int(input('Digite o sua 1 nota: '))
 n2 = int(input('Digite o sua 2 nota: '))
 # desconto = int('10')

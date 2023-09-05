@@ -10,10 +10,12 @@
     Nome, Idade, Profissão
 9. Imprima somente o valor contido na chave Nome do dicionário
 """
-#Item 1
+#Item 1 
 tupla = (1, 2, 3, 4, 5)
-#Item 2
+print(tupla)
+#Item 2 
 lista = list(tupla)
+print(lista)
 #Item 3
 lista.append('Rafaela')
 lista.append(10)
@@ -21,6 +23,7 @@ lista.append(10)
 lista.remove(1)
 #Item 5
 lista.remove(10)
+# também podde remover assim, esse comando sempre remove o ultimo item : lista.pop()
 # Impressão de checagem
 print(lista)
 #Item 6
@@ -28,6 +31,7 @@ print(lista[0])
 #Item 7
 qtditens = len(lista)
 print(qtditens)
+#pode ser assim também: print(len(lista))
 #Item 8
 dicionario = {'Nome': 'Rafaela', 'Idade':32, 'Profissão': 'Analista'}
 #Item 9

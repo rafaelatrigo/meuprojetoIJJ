@@ -4,7 +4,7 @@ tem o @jogajuntoinstituto.org no texto.
 
 Crie um input para verificar esse texto."""
 
-verifica = False
+"""verifica = False
 teste = "@jogajuntoinstituto.org"
 
 while True:
@@ -14,4 +14,22 @@ while True:
         print("E-mail válido")
         break  
     else:
-        print("Email inválido")
+        print("Email inválido")"""
+
+
+
+
+
+
+email = input("Digite o email:")
+
+if email.endswith("@jogajuntoinstituto.org"):
+    print("Email válido")
+else:
+    print("Email inválido")
+
+
+
+
+
+
